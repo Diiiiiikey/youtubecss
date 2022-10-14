@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+/* header__head-left */
+
+button#icon-menu {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    padding: 12px 12px;
+    border: 0px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+button#icon-menu:hover {
+    cursor: pointer;
+}
+
+button#icon-logo {
+    font-size: 28px;
+    color: red;
+}
+
+button.icon-youtube {
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+button.country {
+    display: flex;
+    font-size: 3px;
+}
+
+/* header__search */
+
+button#icon-search {
+    font-size: 20px;
+}
+
+button#icon-mic {
+    font-size: 17px;
+}
+
+/* header__head-right */
+
+button#icon-create {
+    font-size: 22px;
+    padding: 12px 12px;
+    border: 0px;
+    border-radius: 100px;
+}
+
+button#icon-notification {
+    font-size: 22px;
+    padding: 12px 12px;
+    border: 0px;
+    border-radius: 100px;
+}
+
+button#icon-user {
+    font-size: 30px;
+    padding: 3px 3px;
+    border: 0px;
+    border-radius: 100px;
+}

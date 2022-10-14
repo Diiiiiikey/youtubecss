@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+
+/* header */
+header {
+    height: 56px;
+    padding: 0px 16px 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header__head-left */
+
+.header__head-left {
+    display: flex;
+}
+
+.header__logo-youtube {
+    display: flex;
+    align-items: center;
+}
+
+/* header__search */
+
+.header__search {
+    display: flex;
+    align-items: center;
+}
+
+/* header__head-right */
+
+.header__head-right {
+    display: flex;
+}
