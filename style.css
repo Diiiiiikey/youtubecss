@@ -24,6 +24,14 @@ header {
 .header__logo-youtube {
     display: flex;
     align-items: center;
+    position: relative;
+    left: 10px;
+    border: 0px;
+    background-color: white;
+}
+
+.header__logo-youtube:hover {
+    cursor: pointer;
 }
 
 /* header__search */
