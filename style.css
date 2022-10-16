@@ -8,6 +8,7 @@
 
 /* header */
 header {
+    width: 100%;
     height: 56px;
     padding: 0px 16px 0px 16px;
     display: flex;
@@ -19,6 +20,7 @@ header {
 
 .header__head-left {
     display: flex;
+    align-items: center;
 }
 
 .header__logo-youtube {
@@ -28,9 +30,6 @@ header {
     left: 10px;
     border: 0px;
     background-color: white;
-}
-
-.header__logo-youtube:hover {
     cursor: pointer;
 }
 
@@ -39,6 +38,14 @@ header {
 .header__search {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-basis: 728px;
+}
+
+.searcher__box {
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 /* header__head-right */
