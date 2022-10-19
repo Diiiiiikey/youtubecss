@@ -94,4 +94,11 @@ header {
 
 .header__head-right {
     display: flex;
+    width: 255px;
+    justify-content: end;
+}
+
+.user__box {
+    width: 60px;
+    height: 34px;
 }
